@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf=8"/>
+<title>lightbox</title>
+<link rel=stylesheet type="text/css" href="0912.css">
+</head>
+<body>
+    <div class="thumbmail_div">
+        <ul>
+            <li><img src="https://picsum.photos/200/300"></li>
+            <li><img src="https://picsum.photos/200"></li>
+            <li><img src="https://picsum.photos/id/237/200/300"></li>
+            <li><img src="https://picsum.photos/200/300?grayscale"></li>
+            <li><img src="https://picsum.photos/200/300/?blur"></li>
+            <li><img src="https://picsum.photos/200/300/?blur=2"></li>
+        </ul>       
+           <div class="darkBg_div"></div>
+
+           <div class="lightBox_div">
+               <span class="close">X</span>
+           </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script type="text/javascript" src="0912.js"></script>
+</body>
+</html>
